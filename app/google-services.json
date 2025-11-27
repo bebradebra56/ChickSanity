@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "630133550792",
+    "project_id": "chicksanity-c02c6",
+    "storage_bucket": "chicksanity-c02c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630133550792:android:6d806c73101d5714b6fffd",
+        "android_client_info": {
+          "package_name": "com.chickisa.sofskil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZkKZekCCdtVUGRUrA4zOrugenchOMU2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

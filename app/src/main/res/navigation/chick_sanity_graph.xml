@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chick_sanity_graph"
+    app:startDestination="@id/chickSanityLoadFragment">
+
+    <fragment
+        android:id="@+id/chickSanityLoadFragment"
+        android:name="com.chickisa.sofskil.zxcvb.presentation.ui.load.ChickSanityLoadFragment"
+        android:label="ChickSanityLoadFragment" >
+        <action
+            android:id="@+id/action_chickSanityLoadFragment_to_chickSanityV"
+            app:destination="@id/chickSanityV"
+            app:popUpTo="@id/chick_sanity_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/chickSanityV"
+        android:name="com.chickisa.sofskil.zxcvb.presentation.ui.view.ChickSanityV"
+        android:label="ChickSanityV" />
+</navigation>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chick Sanity</string>
+    <string name="notification_channel_name">Cleaning Reminders</string>
+    <string name="notification_channel_description">Notifications for zone cleaning reminders</string>
+</resources>
