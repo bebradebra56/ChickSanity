@@ -66,7 +66,7 @@ class ChickSanityPushService : FirebaseMessagingService(){
             this,
             0,
             chickSanityIntent,
-            PendingIntent.FLAG_UPDATE_CURRENT
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
         )
 
         val chickSanityNotification = NotificationCompat.Builder(this, CHICK_SANITY_CHANNEL_ID)
