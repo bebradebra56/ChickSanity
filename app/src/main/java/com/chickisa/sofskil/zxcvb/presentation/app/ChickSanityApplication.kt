@@ -109,10 +109,16 @@ class ChickSanityApplication : Application() {
                                 val resp = response.body()
                                 Log.d(CHICK_SANITY_MAIN_TAG, "After 5s: $resp")
                                 if (resp?.get("af_status") == "Organic" || resp?.get("af_status") == null) {
-                                    chickSanityResume(ChickSanityAppsFlyerState.ChickSanityError)
+                                    chickSanityResume(
+                                        ChickSanityAppsFlyerState.ChickSanitySuccess(
+                                            p0
+                                        )
+                                    )
                                 } else {
                                     chickSanityResume(
-                                        ChickSanityAppsFlyerState.ChickSanitySuccess(resp)
+                                        ChickSanityAppsFlyerState.ChickSanitySuccess(
+                                            resp
+                                        )
                                     )
                                 }
                             } catch (d: Exception) {

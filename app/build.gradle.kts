@@ -109,6 +109,8 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.fragment)
+    implementation(libs.navigation.fragment.ktx)
+    implementation(libs.navigation.ui.ktx)
     ksp(libs.androidx.room.compiler)
     
     // DataStore
